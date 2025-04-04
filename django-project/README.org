@@ -11,3 +11,5 @@ Setup with:
 - =uv run django-admin --version=
 
 Adding to Git is fine (it seems =.venv= is already ignored).
+
+No reinstall of environment needed on fresh check-out: =uv run= fetches as required.
