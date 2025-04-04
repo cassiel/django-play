@@ -1,0 +1,13 @@
+-*- mode: org; mode: visual-line; -*-
+#+STARTUP: indent
+
+* 2025-04-04
+
+Setup with:
+
+- =uv init django-project=
+- =cd django-project=
+- =uv add Django=
+- =uv run django-admin --version=
+
+Adding to Git is fine (it seems =.venv= is already ignored).
