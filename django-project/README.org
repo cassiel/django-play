@@ -13,3 +13,9 @@ Setup with:
 Adding to Git is fine (it seems =.venv= is already ignored).
 
 No reinstall of environment needed on fresh check-out: =uv run= fetches as required.
+
+With some AI help:
+
+- =uv run django-admin startproject config .=
+- =uv run python manage.py runserver=
+- =.gitignore-= created by AI
